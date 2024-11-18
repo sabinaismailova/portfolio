@@ -1,0 +1,99 @@
+.clawMachine {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 4px solid #8068b4;
+    background-color: #d2c1dc;
+    overflow: hidden;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inside {
+    position: relative;
+    width: 96%;
+    height: 80%;
+    border: 1px solid #8068b4;
+    background-color: #fbf8bd;
+    margin: auto;
+    margin-top: 1%;
+    box-sizing: border-box;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.leftWall,
+.rightWall, 
+.backWall {
+    position: absolute;
+    background-color: #fbf8bd;
+}
+
+.topWall, 
+.bottomWall {
+    position: absolute;
+    background-color: #d3e697;
+}
+
+.leftWall {
+    width: 8%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.rightWall {
+    width: 8%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
+
+.backWall {
+    width: 80%;
+    height: 80%;
+    left: 10%;
+    top: 10%;
+    background-color: #e2d5dc;
+}
+
+.topWall {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    clip-path: polygon(0 0, 10% 100%, 90% 100%, 100% 0);
+}
+
+.bottomWall {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    clip-path: polygon(0 100%, 10% 0, 90% 0, 100% 100%);
+}
+
+.sideGlass {
+    position: absolute;
+    bottom: 6.5%;
+    left: 12%;
+    width: 11%;
+    height: 20%;
+    background-color: rgb(234, 234, 234, 0.5);
+    border: 4px solid rgba(155, 127, 171, 0.5);
+    transform: rotate(-30deg) skewX(-30deg);
+}
+
+.frontGlass {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 12.5%;
+    height: 23%;
+    border-bottom-left-radius: 32px;
+    background-color: rgb(234, 234, 234, 0.5);
+    border: 4px solid rgba(155, 127, 171, 0.5);
+}
+
