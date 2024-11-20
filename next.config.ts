@@ -7,7 +7,6 @@ const nextConfig: NextConfig = {
     return config;
   },
   output: 'export',
-  distDir: 'src',
 };
 
 export default nextConfig;
