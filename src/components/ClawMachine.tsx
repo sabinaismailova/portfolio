@@ -1,5 +1,4 @@
 import styles from "../styles/clawmachine.module.scss";
-import Image from "next/image";
 import kuromigrad from "../images/kuromigrad.png";
 import keropisharedstudio from "../images/keropisharedstudio.png";
 import mymelodynyt from "../images/mymelodynyt.png";
