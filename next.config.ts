@@ -6,6 +6,8 @@ const nextConfig: NextConfig = {
   webpack(config) {
     return config;
   },
+  output: 'export',
+  distDir: 'src',
 };
 
 export default nextConfig;
