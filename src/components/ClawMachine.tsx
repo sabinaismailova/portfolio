@@ -68,12 +68,6 @@ export default function ClawMachine() {
     if(id=='hello kitty'){
         return '6%'
     }
-    if(id=='cinnimaroll'){
-        return '2%'
-    }
-    if(id=='hello kitty jar'){
-        return '1%'
-    }
     return '0'
   }
 
@@ -89,14 +83,23 @@ export default function ClawMachine() {
 
   const getPrizeMaxWidth = (id: string) => {
     if(id=='cinnimaroll'){
-        return '170px'
+        return '104px'
+    }
+    if(id=='hello kitty phone'){
+        return '72px'
+    }
+    if(id=='hello kitty jar'){
+        return '48px'
     }
     return '96px'
   }
 
   const getPrizeMinWidth = (id: string) => {
     if(id=='cinnimaroll'){
-        return '96px'
+        return '64px'
+    }
+    if(id=='hello kitty jar'){
+        return '48px'
     }
     return '72px'
   }
