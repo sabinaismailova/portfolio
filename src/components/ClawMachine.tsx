@@ -1,14 +1,14 @@
 import styles from "../styles/clawmachine.module.scss";
-import kuromigrad from "../images/kuromigrad.png";
-import keropisharedstudio from "../images/keropisharedstudio.png";
-import mymelodynyt from "../images/mymelodynyt.png";
-import tuxegswep from '../images/tuxegswep.png'
-import laptopprotrack from '../images/laptopprotrack.png'
-import surprise from '../images/surprise.png'
-import hellokittywitu from '../images/hellokittywitu.png'
-import cinnimarollwikitongues from '../images/cinnimarollwikitongues.png'
-import phonettp from '../images/phonettp.png'
-import skillsjar from '../images/skillsjar.png'
+import kuromigrad from "../../public/images/kuromigrad.png";
+import keropisharedstudio from "../../public/images/keropisharedstudio.png";
+import mymelodynyt from "../../public/images/mymelodynyt.png";
+import tuxegswep from '../../public/images/tuxegswep.png'
+import laptopprotrack from '../../public/images/laptopprotrack.png'
+import surprise from '../../public/images/surprise.png'
+import hellokittywitu from '../../public/images/hellokittywitu.png'
+import cinnimarollwikitongues from '../../public/images/cinnimarollwikitongues.png'
+import phonettp from '../../public/images/phonettp.png'
+import skillsjar from '../../public/images/skillsjar.png'
 
 export default function ClawMachine() {
   const prizes = [
